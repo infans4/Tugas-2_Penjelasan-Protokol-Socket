@@ -45,4 +45,4 @@ Untuk melihat grafik alur, dapat menggunakan fitur Flow Graph di Wireshark yang 
 3. **Penutupan Koneksi**: Jika tidak ada permintaan lebih lanjut, koneksi TCP akan ditutup.
 
 ### Hasil tangkapan layar
-![FlowGraph(https://github.com/infans4/Tugas-2_Penjelasan-Protokol-Socket/blob/main/assets/FlowGraph.png)
+![FlowGraph](https://github.com/infans4/Tugas-2_Penjelasan-Protokol-Socket/blob/main/assets/FlowGraph.png)
