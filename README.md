@@ -19,7 +19,7 @@ https://github.com/kusdavletov/socket-programming-simple-server-and-client/blob/
 - Socket: Klien membuka soket TCP ke alamat IP server pada port yang ditentukan, lalu mengirimkan permintaan koneksi. Koneksi TCP ini menggunakan mekanisme three-way handshake, yaitu SYN, SYN-ACK, dan ACK untuk memulai komunikasi.
 
 ### Hasil tangkapan layar
-![3WayHandShake](https://github.com/infans4/Tugas-1_Penjelasan-Protokol-http.cap/blob/main/assets/Port%20HTML.png)
+![3WayHandShake](https://github.com/infans4/Tugas-2_Penjelasan-Protokol-Socket/blob/main/assets/3HandShake.png)
 
 ## 2. Jumlah Paket dalam Capture
 
@@ -33,9 +33,9 @@ Jumlah paket yang dikirimkan dalam komunikasi bergantung pada jenis dan ukuran p
 - Koneksi ditutup setelah respons selesai.
 Total jumlah paket dapat bervariasi, namun untuk satu permintaan dasar (misalnya, sebuah permintaan `GET` sederhana yang menerima respons kecil), biasanya diperlukan sekitar 4-6 paket, tergantung pada ukuran konten.
 ### Hasil tangkapan layar
-![3WayHandShake](https://github.com/infans4/Tugas-1_Penjelasan-Protokol-http.cap/blob/main/assets/Port%20HTML.png)
-![Server to Client](https://github.com/infans4/Tugas-1_Penjelasan-Protokol-http.cap/blob/main/assets/Server%20to%20Client.png)
-![Close conn](https://github.com/infans4/Tugas-1_Penjelasan-Protokol-http.cap/blob/main/assets/Close%20conn.png)
+![3WayHandShake](https://github.com/infans4/Tugas-2_Penjelasan-Protokol-Socket/blob/main/assets/3HandShake.png)
+![SendClient](https://github.com/infans4/Tugas-2_Penjelasan-Protokol-Socket/blob/main/assets/SendClientnServer.png))
+![ClientOut](https://github.com/infans4/Tugas-2_Penjelasan-Protokol-Socket/blob/main/assets/ClientOut.png)
 ## 3. Flow Graph di Wireshark
 
 Untuk melihat grafik alur, dapat menggunakan fitur Flow Graph di Wireshark yang menampilkan aliran komunikasi antara klien dan server, termasuk handshakes dan paket yang dikirim. Flow Graph menunjukkan langkah-langkah komunikasi berikut:
@@ -45,5 +45,4 @@ Untuk melihat grafik alur, dapat menggunakan fitur Flow Graph di Wireshark yang 
 3. **Penutupan Koneksi**: Jika tidak ada permintaan lebih lanjut, koneksi TCP akan ditutup.
 
 ### Hasil tangkapan layar
-![Flow1](https://github.com/infans4/Tugas-1_Penjelasan-Protokol-http.cap/blob/main/assets/Flow1.png)
-![Flow2](https://github.com/infans4/Tugas-1_Penjelasan-Protokol-http.cap/blob/main/assets/Flow2.png)
+![FlowGraph(https://github.com/infans4/Tugas-2_Penjelasan-Protokol-Socket/blob/main/assets/FlowGraph.png)
